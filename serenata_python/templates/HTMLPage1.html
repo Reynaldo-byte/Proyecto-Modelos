@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Afinando</title>
+</head>
+<body background="static/Orquesta.jpg">
+    <font size="4">
+        <center>
+            <table border="1">
+                {% for elemento in lista %}
+                <tr>
+                    <th>
+                        <img src="{{elemento}}" width="200" height="200">
+                        <br>
+                    </th>
+                </tr>
+                {% endfor %}
+            </table>
+        </center>
+        <a href="HTMLPage2">Tocar</a>
+    </font>
+</body>
+</html>
